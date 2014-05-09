@@ -8,7 +8,7 @@ fulldata <- read.table("RawData/household_power_consumption.txt", sep = ";", nro
 fulldata$Date <- ymd(fulldata$Date) #Convert date to date type
 #Create date sets for only the required dates 2007-02-01 and 2007-02-02
 selectdata <- fulldata[fulldata$Date == ymd("2007-02-01")| fulldata$Date == ymd("2007-02-02"),]
-#Change time to a change object using hms from lubridate. 
+#Change time to a time object using hms from lubridate. 
 selectdata$Time <- hms(selectdata$Time)
 #Figure 2
 
