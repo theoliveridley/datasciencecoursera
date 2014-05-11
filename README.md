@@ -1,6 +1,6 @@
 datasciencecoursera
 ===================
 
-Github Repository for trying out R projects
+Github Repository for trying out R projects on the Coursera data science track
 
-Not much information to add at this point in time. 
+Folders will generally correspond to the course. 
