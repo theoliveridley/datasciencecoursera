@@ -1,6 +1,6 @@
 require(lubridate) #For easier to use date functions dmy, ymd, hms, etc. 
 require(data.table) #For faster reading of file using fread()
-#Read and prepare data
+#Read and prepare data for analysis
 downloadurl <- "https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip"
 if(!file.exists("RawData/household_power_consumption.zip") ) download.file(downloadurl, "RawData/household_power_consumption.zip")
 if(!file.exists("RawData/household_power_consumption.txt")) unzip("RawData/household_power_consumption.zip")
